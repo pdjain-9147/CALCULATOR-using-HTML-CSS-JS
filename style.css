@@ -1,0 +1,47 @@
+html, body {
+            background: black;
+            color: white;
+        }
+        .text-center{
+            text-align: center;
+        }
+
+        .container{
+            border: 3px solid black;
+            padding: 20px;
+            /* background: black; */
+            /* width: 400px; */
+            /* margin: auto; */
+            border-radius: 8px;
+        }
+        .buttons1{
+            display:grid;
+            grid-template-columns: repeat(4,100px);
+            grid-gap: 10px;
+            justify-content: center;
+            height: 300px;
+        }
+        .button{
+            background-color: grey;
+            color: white;
+            font-size: 1.5rem;
+            border-radius: 10px;
+            border: 3px solid black;
+        }
+        .row{
+            margin: auto;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .row .input{
+            width: 417px;
+            height: 100px;
+            border-radius: 10px;
+            font-size: 2rem;
+            text-align: center;
+        }
+        .button:nth-child(17){
+            grid-column: 1/span 2;
+        }
